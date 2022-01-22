@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="world.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspose.Imaging" Version="21.7.0" />
+    <PackageReference Include="Aspose.SVG" Version="21.7.0" />
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.Maps.MapControl.WPF" Version="1.0.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Svg" Version="3.2.3" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.114.4" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.114.3" />
+    <PackageReference Include="System.Data.SQLite.EF6" Version="1.0.114" />
+    <PackageReference Include="System.Data.SQLite.Linq" Version="1.0.114" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="world.jpg" />
+  </ItemGroup>
+
+</Project>
